@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Slot Racing: privacidad y soporte / privacy and support</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;600&display=swap">
+<style>
+:root {
+  --felt: #f3f6f2; --paper: #ffffff; --ink: #18241d; --muted: #4f6157; --line: #d7e1da;
+  --gold: #b8860b; --red: #d42b24; --green: #1d5a3c;
+  --display: "Russo One", "Arial Black", system-ui, sans-serif;
+  --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --felt: #0f2219; --paper: #142c21; --ink: #e9f1ec; --muted: #a6bbae; --line: #24452f;
+  --gold: #ffd24a; --red: #ff5a4f; --green: #7fd3a4; color-scheme: dark } }
+body { margin: 0; background: var(--felt); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+.curb { height: 10px; background: repeating-linear-gradient(90deg, var(--red) 0 28px, #fff 28px 56px); }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 56px; display: grid; gap: 28px; }
+header h1 { font-family: var(--display); font-weight: 400; font-size: clamp(30px, 6vw, 44px); line-height: 1.1; margin: 0; color: var(--green); text-wrap: balance; }
+header p { margin: 8px 0 0; color: var(--muted); }
+.lang { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.lang a { font-weight: 600; color: var(--green); text-decoration: none; border: 1px solid var(--line); padding: 4px 12px; border-radius: 999px; }
+a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+section { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 22px 22px 8px; min-width: 0; }
+h2 { font-family: var(--display); font-weight: 400; font-size: 22px; margin: 0 0 6px; color: var(--ink); }
+h3 { font-size: 15px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 20px 0 4px; }
+p, li { max-width: 65ch; }
+ul { padding-left: 20px; margin: 6px 0 14px; }
+.summary { border-left: 4px solid var(--gold); padding: 6px 0 6px 14px; margin: 10px 0 14px; font-weight: 600; }
+footer { color: var(--muted); font-size: 14px; }
+.mail { overflow-wrap: anywhere; color: var(--green); }
+</style>
+</head>
+<body>
+<div class="curb" aria-hidden="true"></div>
+<main>
+  <header>
+    <h1>Slot Racing: privacidad y soporte</h1>
+    <p>Juego de carreras de autos slot para iPhone. Última actualización: 20 de noviembre de 2026.</p>
+    <div class="lang"><a href="#es">Español</a><a href="#en">English</a></div>
+  </header>
+
+  <section id="es" lang="es">
+    <h2>Aviso de privacidad</h2>
+    <p class="summary">Slot Racing no recopila, no guarda en servidores y no comparte ningún dato personal.</p>
+    <h3>Qué se guarda</h3>
+    <ul>
+      <li>Tu avance (monedas, autos, mejoras, estrellas, récords y ajustes) se guarda solo en tu iPhone. No sale del dispositivo y se borra si eliminas la app.</li>
+      <li>El juego no tiene cuentas, anuncios, rastreo ni compras dentro de la app.</li>
+    </ul>
+    <h3>Game Center</h3>
+    <p>Si inicias sesión en Game Center, Apple guarda tus puntajes y logros para las clasificaciones. Ese servicio es de Apple y se rige por su propia política de privacidad. Puedes jugar sin Game Center.</p>
+    <h3>Niños</h3>
+    <p>El juego es apto para todo público y no pide datos a nadie, incluidos menores de edad.</p>
+    <h3>Contacto</h3>
+    <p>Dudas sobre privacidad: <strong class="mail">fercamacho.garcia.dev@gmail.com</strong></p>
+    <h3>Cambios</h3>
+    <p>Si una versión futura agrega anuncios o compras, actualizaremos este aviso antes de publicarla y lo indicaremos en la App Store.</p>
+    <h2 style="margin-top:22px">Soporte</h2>
+    <p>¿Problemas o ideas? Escríbenos a <strong class="mail">fercamacho.garcia.dev@gmail.com</strong>. Cuéntanos el modelo de tu iPhone, la versión de iOS y la pista donde ocurrió.</p>
+    <ul>
+      <li><strong>Perdí mi avance:</strong> el avance vive en el iPhone; si borras la app se pierde.</li>
+      <li><strong>No aparece Game Center:</strong> revisa en Ajustes &gt; Game Center que tengas la sesión iniciada.</li>
+    </ul>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>Privacy policy</h2>
+    <p class="summary">Slot Racing does not collect, store on servers or share any personal data.</p>
+    <h3>What is stored</h3>
+    <ul>
+      <li>Your progress (coins, cars, upgrades, stars, records and settings) is saved only on your iPhone. It never leaves the device and is removed if you delete the app.</li>
+      <li>The game has no accounts, ads, tracking or in-app purchases.</li>
+    </ul>
+    <h3>Game Center</h3>
+    <p>If you sign in to Game Center, Apple stores your scores and achievements for the leaderboards. That service is Apple's and follows Apple's privacy policy. You can play without Game Center.</p>
+    <h3>Children</h3>
+    <p>The game is suitable for everyone and asks no one for data, including children.</p>
+    <h3>Contact</h3>
+    <p>Privacy questions: <strong class="mail">fercamacho.garcia.dev@gmail.com</strong></p>
+    <h3>Changes</h3>
+    <p>If a future version adds ads or purchases, we will update this policy before releasing it and say so on the App Store.</p>
+    <h2 style="margin-top:22px">Support</h2>
+    <p>Problems or ideas? Email us at <strong class="mail">fercamacho.garcia.dev@gmail.com</strong>. Tell us your iPhone model, iOS version and the track where it happened.</p>
+  </section>
+
+  <footer>Slot Racing · Hecho en México</footer>
+</main>
+</body>
+</html>
